@@ -1,0 +1,12 @@
+body,html{
+    background-color:rgb(225, 207, 153);
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+.image_style{
+    color:rgba(225, 207, 153, 0.939);
+    margin:0;
+    padding:0;
+    height: 100%;
+}
