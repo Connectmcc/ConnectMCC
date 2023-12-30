@@ -2,6 +2,7 @@ import React from 'react'
 import Sidebar from '../../Components/Sidebar/Sidebar'
 import { Route, Routes } from 'react-router-dom'
 import Homepage from '../HomePage/Homepage'
+import Profile from '../Profile/Profile'
 const Router = () => {
   return (
     <div>
@@ -13,7 +14,7 @@ const Router = () => {
         <div  className="w-full">
           <Routes>
             <Route path="/" element={<Homepage />}></Route>
-            <Route path="/username" element={<profile />}></Route>
+            <Route path="/username" element={<Profile/>}></Route>
           </Routes>
         </div>
       </div>

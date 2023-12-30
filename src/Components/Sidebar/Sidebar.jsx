@@ -36,7 +36,7 @@ const Sidebar = () => {
           </div>
         </div>
         <div className='flex items-center cursor-pointer pb-10'>
-          <IoReorderThreeOutline className='text-2xl' />
+          <IoReorderThreeOutline className='text-2xl text-emerald-600' />
           <p className="ml-5 ">More</p>
         </div>
       </div>
