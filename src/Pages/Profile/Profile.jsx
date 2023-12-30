@@ -1,6 +1,6 @@
 import React from 'react'
 import { ProfileUserDetails } from '../../Components/ProfileComponents/ProfileUserDetails'
-import ReqUserPostPart from '../../Components/ProfileComponents/REqUserPostPart'
+
 
 const Profile = () => {
   return (
@@ -9,7 +9,7 @@ const Profile = () => {
             <ProfileUserDetails/>
         </div>
         <div>
-        <ReqUserPostPart/>
+      
         </div>
     </div>
   )
