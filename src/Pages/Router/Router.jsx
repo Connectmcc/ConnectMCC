@@ -10,9 +10,10 @@ const Router = () => {
         <div className="w-[20%] border border-neutral-500 ">
           <Sidebar />
         </div>
-        <div>
+        <div  className="w-full">
           <Routes>
-            <Route path='/' element={<Homepage />}></Route>
+            <Route path="/" element={<Homepage />}></Route>
+            <Route path="/username" element={<profile />}></Route>
           </Routes>
         </div>
       </div>
