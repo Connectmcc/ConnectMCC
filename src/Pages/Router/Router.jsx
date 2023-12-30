@@ -2,6 +2,7 @@ import React from 'react'
 import Sidebar from '../../Components/Sidebar/Sidebar'
 import { Route, Routes } from 'react-router-dom'
 import Homepage from '../HomePage/Homepage'
+import Profile from '../Profile/Profile'
 const Router = () => {
   return (
     <div>
@@ -10,9 +11,10 @@ const Router = () => {
         <div className="w-[20%] border border-neutral-500 ">
           <Sidebar />
         </div>
-        <div>
+        <div  className="w-full">
           <Routes>
-            <Route path='/' element={<Homepage />}></Route>
+            <Route path="/" element={<Homepage />}></Route>
+            <Route path="/username" element={<Profile/>}></Route>
           </Routes>
         </div>
       </div>
