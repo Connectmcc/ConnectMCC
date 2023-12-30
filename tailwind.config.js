@@ -8,5 +8,11 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-
+  theme: {
+    extend: {
+      colors: {
+        customYellow: 'rgb(225, 207, 153)',
+      },
+    },
+  },
 }

@@ -16,7 +16,7 @@ const Sidebar = () => {
     }
   };
   return (
-    <div className='sticky top-0 h-[100vh]'>
+    <div className='sticky top-0 h-[100vh] bg-gradient-to-b from-customYellow  via-customYellow to-emerald-100 h-screen'>
       <div className='flex flex-col justify-between h-full px-10'>
         <div>
           <div className='pt-10'>
