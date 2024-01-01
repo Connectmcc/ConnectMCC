@@ -4,6 +4,7 @@ import ReqUserPostPart from './../../Components/ProfileComponents/ReqUserPostPar
 
 
 
+
 const Profile = () => {
   
   return (
@@ -15,6 +16,7 @@ const Profile = () => {
         <ReqUserPostPart/>
       
         </div>
+       
     </div>
   )
 }
