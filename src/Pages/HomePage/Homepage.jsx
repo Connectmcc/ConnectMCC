@@ -14,7 +14,7 @@ const Homepage = () => {
              </div>
 
             <div  className="Space-y-10 w-full mt-10">
-              {[1,1].map((item)=><PostCard/>)}
+              
         </div>
     </div>
     <div  className="w-[35%]">
