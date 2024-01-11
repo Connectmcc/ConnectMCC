@@ -1,6 +1,7 @@
 import React from 'react'
 import StoryCircle from '../../Components/Story/StoryCircle'
 import HomeRight from '../../Components/HomeRight/HomeRight'
+import PostCard from '../../Components/Posts/PostCard';
 
 const Homepage = () => {
   return (
@@ -14,7 +15,7 @@ const Homepage = () => {
              </div>
 
             <div  className="Space-y-10 w-full mt-10">
-              
+              {[1,1].map((item)=><PostCard/>)}
         </div>
     </div>
     <div  className="w-[35%]">
