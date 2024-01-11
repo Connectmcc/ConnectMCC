@@ -15,6 +15,7 @@ const PostCard = () => {
                         <p className="font-thin text-sm"> location</p>
                     </div>
                 </div>
+               
             </div>
         </div>
     </div>
