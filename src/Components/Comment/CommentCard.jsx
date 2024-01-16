@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import {AiFillHeart,AiOutlineHeart} from "react-icons/ai" ;
+import { BiLike ,BiSolidLike} from "react-icons/bi";
 const CommentCard = () => {
     const [isCommentLike,setIsCommentlike]=useState();
 
     const handleLikedComment=()=>{
-        setIsCommentlike(isCommentLike)
+        setIsCommentlike(!isCommentLike)
     }
   return (
     <div>
@@ -31,9 +31,9 @@ const CommentCard = () => {
     </div>
 
 {isCommentLike ? (
-<AiFillHeart onClick={handleLikedComment}className=" text-xs hover:opacity-50 cursor-pointer text-red-600 "/>
+    <BiSolidLike onClick={handleLikedComment}className=" text-xs hover:opacity-50 cursor-pointer text-green-700"/>
 ) : (
-<AiOutlineHeart nClick={handleLikedComment} className=" text-xs hover:opacity-50 cursor-pointer"/>
+<BiLike onClick={handleLikedComment} className=" text-xs hover:opacity-50 cursor-pointer"/>
 )}
 </div>
 
