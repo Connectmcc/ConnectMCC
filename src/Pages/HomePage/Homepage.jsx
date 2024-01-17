@@ -3,7 +3,9 @@ import StoryCircle from '../../Components/Story/StoryCircle'
 import HomeRight from '../../Components/HomeRight/HomeRight'
 import PostCard from '../../Components/Posts/PostCard';
 import CreatePostModal from '../../Components/Posts/CreatePostModal';
+import { useDisclosure } from '@chakra-ui/react';
 const Homepage = () => {
+  const { isOpen, onOpen, onClose } = useDisclosure()
   return (
     <div>
         <div  className="mt-10 flex w-[100%] justify-center">
@@ -23,7 +25,7 @@ const Homepage = () => {
     </div>
     </div>
 
-    <CreatePostModal/>
+   
     </div>
   );
 };
