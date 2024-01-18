@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react'
+import React, { useEffect,useState } from 'react'
 import './ProgressBar.css'
-const ProgressBar = (index,activeIndex,duration) => {
+const ProgressBar = ({index,activeIndex,duration}) => {
     const [progress,setProgress]=useState(0);
 
     useEffect(()=>{
@@ -26,7 +26,8 @@ setProgress(0);
     const isActive=index===activeIndex;
     
   return (
-    <div>
+    <div className={`progress-bar-container ${isActive?"active":""}`}>
+        
         <div className={`${isActive?"progress-bar":""}`} style={{width:`${progress}%`}}>
 
         </div>
