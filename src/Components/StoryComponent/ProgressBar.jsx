@@ -27,10 +27,10 @@ setProgress(0);
     
   return (
     <div className={`progress-bar-container ${isActive?"active":""}`}>
-        
-        <div className={`${isActive?"progress-bar":""}`} style={{width:`${progress}%`}}>
-
-        </div>
+         
+        <div className={ `progress-bar ${isActive?"progress-bar":""}`}
+         style={{width:`${progress}%`}}
+>        </div>
     </div>
   )
 }
